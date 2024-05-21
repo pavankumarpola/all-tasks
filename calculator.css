@@ -1,0 +1,31 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .calculator input[type='text'],
+  .calculator select {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+    border-radius: 15px;
+    border-style: double;
+  }
+  
+  .calculator button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .calculator button:hover {
+    background-color: #45a049;
+  }
+  

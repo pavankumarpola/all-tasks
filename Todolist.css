@@ -1,0 +1,62 @@
+
+.todo-list {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  
+  .input-container {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 20px 10px;
+    border-style: none;
+    border: 2px solid black;
+  }
+  
+  button {
+    padding: 8px 12px;
+    font-size: 16px;
+    background-color: goldenrod;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 50px;
+    border-radius: 12px;
+  }
+  
+  button:hover {
+    background-color: blue;
+  }
+  
+  .pola {
+    list-style-type: none;
+    padding-left: 70px;
+    background-color: aquamarine;
+    font-size: large;
+  }
+  
+  li {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #999;
+  }
+  h1{
+    color: darkblue;
+    font-size: 46px;
+  }
+  

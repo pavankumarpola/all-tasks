@@ -1,0 +1,14 @@
+p{
+    text-align: center;
+    font-weight: 500;
+}
+#label{
+    padding-left: 80px;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#total{
+    margin-top: 300px;
+}

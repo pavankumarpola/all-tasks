@@ -1,0 +1,107 @@
+#ul{
+    list-style: none;
+    width: 28%;
+    border-radius: 25px;
+    transform: scale(0.8);
+    background-color: antiquewhite; 
+
+  
+    
+  }
+  
+  #ul:hover{
+    transform: scale(1.0);
+    cursor: pointer;
+    box-shadow: 15px 10px solid black;
+  }
+  img{
+    transform: scale(1.1);
+    cursor: pointer;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 15px;
+  }
+ 
+  #main{
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  #pavan{
+   /* margin-left: 450px; */
+    padding: 10px 170px  10px 10px;
+    border-radius: 20px;
+    border-style: none;
+    /* box-shadow: 5px 2px 2px red; */
+  }
+  body{
+   
+    background-size: cover;
+  }
+  #Button{
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 10px;
+    border-style: none;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: grey;
+    color: bisque;
+    
+  }
+  #Button:hover{
+    color: black;
+    background-color: bisque;
+    cursor: pointer;
+  }
+  #li22{
+    padding: 20px;
+    list-style-type: none;
+  }
+  #pola{
+    display: flex;
+  }
+  @media screen and (max-width: 768px) {
+    #main,
+    #main22 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+
+  @media screen and (max-width: 480px) {
+    h1 {
+      font-size: 1.5em; 
+    }
+    
+    #pavan {
+      width: 80%; 
+    }
+    
+    #ul {
+      padding: 10px; 
+    }
+  }
+  @media screen and (min-width:300px) and (max-width: 480px){
+    #main{
+      width: 1000px;
+      margin-left: -350px;
+
+    }
+    #pola{
+      display: inline-block;
+    }
+  }
+  
+
+
+
+ 
+  
+

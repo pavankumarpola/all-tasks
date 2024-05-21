@@ -1,0 +1,90 @@
+.text-converter {
+    width: 300px;
+    margin: 0 auto;
+    margin-left: 50px;
+    margin-top: 50px;
+    
+  }
+  .pavan{
+    font-weight: 700;
+    color: blue;
+  }
+  
+  textarea {
+    margin-bottom: 10px;
+    padding: 5px;
+    resize: none;
+    border-radius: 10px;
+    border: 1px solid;
+    
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-left: 0px;
+  }
+  
+  #kumar {
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-left: 1100px;
+  }
+  
+  #kumar:hover {
+    background-color: #0056b3;
+  }
+  h1{
+    text-align: center;
+    color: blue;
+  }
+  button{
+    background-color:#0056b3;
+    color: #fff;
+    border-style: none;
+    border-radius: 10px;
+  }
+  button:hover{
+    background-color: #007bff;
+    cursor: pointer;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  @media screen and (min-width:300px) and (max-width:600px){
+    textarea{
+      width: 80%;
+      height: 50px;
+    }
+    .buttons{
+      display: block;
+    }
+    #kumar{
+      margin-left: 80px;
+     margin-top: 20px;
+     
+    }
+  }
+  @media screen and (min-width:600px) and (max-width:2000px){
+    textarea{
+      width: 80%px;
+    }
+
+  }
+  @media screen and (min-width:700px){
+    #kumar{
+    margin-left: 880px;
+      position: relative;
+      top: -300px;
+    
+    }
+
+  }
+ 
+  
